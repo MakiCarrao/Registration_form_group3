@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+
+    <link rel="stylesheet" href="style.css">
+     
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <script type:"module" src="register.js" defer></script> 
+    
+   <title>Responsive Regisration Form </title>
+</head>
+<body>
+    <div class="container">
+        <header>Registration Form</header>
+
+        <form action="#">
+            <div class="form first">
+                <div class="details personal">
+                    <span class="title">Personal Details</span>
+
+                    <div class="fields">
+                        <div class="input-field">
+                            <label>Full Name</label>
+                            <input type="text" placeholder="Enter your name" required id="Name">
+                        </div>
+
+                        <div class="input-field">
+                            <label>Date of Birth</label>
+                            <input type="date" placeholder="Enter birth date" required id="birth">
+                        </div>
+
+                        <div class="input-field">
+                            <label>Email</label>
+                            <input type="text" placeholder="Enter your email" required id="email">
+                        </div>
+
+                        <div class="input-field">
+                            <label>Mobile Number</label>
+                            <input type="number" placeholder="Enter mobile number" required id="phone">
+                        </div>
+
+                        <div class="input-field">
+                            <label>Gender</label>
+                            <select required id="gender">
+                                <option disabled selected>Select gender</option>
+                                <option>Male</option>
+                                <option>Female</option>
+                                <option>Others</option>
+                            </select>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Strand</label>
+                            <input type="text" placeholder="Enter  Preffered strand" required id="text">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="details ID">
+                    <span class="title"></span>
+
+                    <div class="fields">
+                        <div class="input-field">
+                            <label>Address</label>
+                            <input type="text" placeholder="Enter address" required id="text">
+                        </div>
+
+                        <div class="input-field">
+                            <label>Postal code</label>
+                            <input type="number" placeholder="Enter Postal code" required id="ID">
+                        </div>
+
+                        <div class="input-field">
+                            <label>Year graduated from JHS</label>
+                            <input type="text" placeholder="Enter year graduated " required id="text">
+                        </div>
+
+                        <div class="input-field">
+                            <label>Last school attended </label>
+                            <input type="text" placeholder="Enter School" required id="text">
+                        </div>
+
+                    
+                    </div>
+
+                    <button class="nextBtn">
+                        <span class="btnText">Next</span>
+                        <i class="uil uil-navigator"></i>
+                    </button>
+                </div> 
+            </div>
+
+            <div class="form second">
+                <div class="details address">
+                    <span class="title">Personal Details</span>
+
+                    <div class="fields">
+                        <div class="input-field">
+                            <label>Place of birth</label>
+                            <input type="text" placeholder="Enter place of birth" required id="address">
+                        </div>
+
+                        <div class="input-field">
+                            <label>Nationality</label>
+                            <input type="text" placeholder="Enter nationality" required id="nationality">
+                        </div>
+
+            
+
+        
+
+                    </div>
+                </div>
+
+                <div class="details family">
+                    <span class="title">Family Details</span>
+
+                    <div class="fields">
+                        <div class="input-field">
+                            <label>Father Name</label>
+                            <input type="text" placeholder="Enter father name" required id="text">
+                        </div>
+
+                        <div class="input-field">
+                            <label>Mother Name</label>
+                            <input type="text" placeholder="Enter mother name" required id="text">
+                        </div>
+
+
+                    <div class="buttons">
+                        <div class="backBtn">
+                            <i class="uil uil-navigator"></i>
+                            <span class="btnText">Back</span>
+                        </div>
+                        
+                        <button class="sumbit" id="submit">
+                            <span class="btnText">Submit</span>
+                            <i class="uil uil-navigator"></i>
+                        </button>
+                    </div>
+                </div> 
+            </div>
+        </form>
+    </div>
+   
+    <script src="script.js"></script>
+</body>
+</html>
